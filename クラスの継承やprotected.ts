@@ -2,7 +2,7 @@
 // public, protected, private
 
 class User {
-    constructor(protected _name: string) {
+    constructor(protected _name: string) {// protected 自分のクラス及び、それを継承するクラス内でのみ使える
     }
     public sayHi(): void {
         console.log("hi! i am " + this._name);
