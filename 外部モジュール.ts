@@ -7,7 +7,7 @@
 //     export var name = "unknown";
 // }
 
-// import User = require("./user_commonjs");
+// import User = require("./user_commonjs");//拡張子が要らない
 import User = require("./user_amd");
 
 console.log(User.name);
